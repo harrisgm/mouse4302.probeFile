@@ -6,9 +6,9 @@ Contains annotated probe-level information for the Mouse 430 2.0 (3prime IVT )mi
 
 The `mouse4302.probeFile` package is an AnnotationForge-generated package containing the probe sequence information for MTA-1_0 (ClariomD mouse) array.  The package contains a `data.frame` containing the necessary probe-level information to run the `GCSscore` differential expression on the following Affymetrix/Thermo-Fisher cchip type:  
 
-Mouse Transcriptome Array (MTA-1_0) / ClariomD Mouse microarray
+Mouse 430 2.0 microarray
 
-All probe-level information in this file was pulled from the platform design (pd) annotation package (`pd.mouse430.2`) on Bioconductor: https://bioconductor.org/packages/release/data/annotation/html/pd.mta.1.0.html
+All probe-level information in this file was pulled from the platform design (pd) annotation package (`pd.mouse430.2`) on Bioconductor: https://bioconductor.org/packages/release/data/annotation/html/pd.mouse430.2.html
 
 This probe-level package was created using the `AnnotationForge` package.  The `AnnotationForge` package required the `getProbeDataAffy` function to be modified to correctly read in the `probeFile` file for newer Affymetrix array types.  This modified function was saved as `getProbeDataCustom`.  The customized functions from the `AnnotationForge` package can be found the following github repository: https://github.com/harrisgm/GCSscore-probeFile-functions
 
